@@ -12,7 +12,8 @@ public extension PPP {
 }
 
 public class CCC {
-    var x = 3
+    public var x = 3
+    public init() {}
 }
 
 public extension CCC {
