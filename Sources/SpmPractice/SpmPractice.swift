@@ -11,6 +11,15 @@ public extension PPP {
     }
 }
 
+extension PPP {
+    internal func pppInternal() -> Int {
+        return 1
+    }
+    public func pppPub() -> Int {
+        return 2
+    }
+}
+
 public class CCC {
     public var x = 3
     public init() {}
