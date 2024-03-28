@@ -10,3 +10,13 @@ public extension PPP {
         return 3
     }
 }
+
+public class CCC {
+    var x = 3
+}
+
+public extension CCC {
+    func qqq() -> Int {
+        return 6
+    }
+}
