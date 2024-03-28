@@ -5,7 +5,7 @@ public protocol PPP {
     var x: Int { get set }
 }
 
-extension PPP {
+public extension PPP {
     func pppEx() -> Int {
         return 3
     }
