@@ -16,8 +16,11 @@ public class CCC {
     public init() {}
 }
 
-public extension CCC {
-    func qqq() -> Int {
+extension CCC {
+    internal func qqq() -> Int {
         return 6
+    }
+    public func pubpub() -> Int {
+        return 0
     }
 }
